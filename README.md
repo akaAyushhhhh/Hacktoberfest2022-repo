@@ -8,3 +8,8 @@ Use this project to make your first contribution to an open source project on Gi
 <h3>What is Hacktoberfest?</h3>
 
 Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easily win a T-Shirt just by making 4 pull requests in the month of October to any open source projects on Github.
+
+<hr>
+
+<h1>Contributors.md</h1>
+<p>Kindly add your name in the Contributors.md file.</p> 
