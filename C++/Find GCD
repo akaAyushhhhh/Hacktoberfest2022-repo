@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main(){
+  int a,b,c;
+  cout<<"Enter the first Number :- ";
+  cin>>a;
+  cout<<"Enter the second Number :- ";
+  cin>>b;
+
+if(b>a){
+  int temp=a;
+  a=b;
+  b=temp;
+}
+for(int i=1; i<=a; i++){
+  // cout<<i;
+  if(a%i==0 && b%i==0){
+    c=i;
+  }
+}
+cout<<c;
+
+}
