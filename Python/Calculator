@@ -1,0 +1,45 @@
+choice=1
+while(choice!=7):
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. power")
+    print("6. Factorial")
+    print("7. Exit")
+
+    choice=int(input("enter your Choice"))
+
+    if(choice<7 and choice>0):
+        number1=float(input("enter the 1'st number"))
+    if(choice<6 and choice>0):
+        number2=float(input("enter the 2'nd number"))
+
+        
+    if(choice==1):
+        num=number1+number2
+        print("Addition of number1 and number2 is ",str(num))
+    elif(choice==2):
+        num=number1-number2
+        print("Subtraction of number1 and number2 is ",str(num))
+    elif(choice==3):
+        num=number1*number2
+        print("Multiplication of number1 and number2 is ",str(num))
+    elif(choice==4):
+        num=number1/number2
+        print("Division of number1 and number2 is ",str(num))
+    elif(choice==5):
+        num=number1**number2
+        print("power of number1 and number2 is ",str(num))
+    elif(choice==6):
+        num=1
+        for i in range(int(number1)):
+            num=num*(i+1)
+        print("Factorial of number1 and number2 is ",str(num))
+    elif(choice==7):
+        print("Exit")
+        exit
+    else:
+        print("Enter the valid choice")
+
+
