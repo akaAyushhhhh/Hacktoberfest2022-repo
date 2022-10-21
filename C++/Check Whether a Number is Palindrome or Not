@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main(){
+  int a;
+  int num = 0;
+  cout<<"Enter The Number :- ";
+  cin>>a;
+  int b=a;
+
+  while(b){
+    num=num*10+b%10;
+    b=b/10;
+  }
+  cout<<num<<endl;
+
+  if(a==num){
+    cout<<"Palindrome";
+  }
+  else{
+    cout<<"Not Palindrome";
+  }
+
+    return 0;
+}
